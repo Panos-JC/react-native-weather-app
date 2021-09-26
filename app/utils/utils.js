@@ -45,7 +45,7 @@ export const getFormatedDate = timestamp => {
   const day = getDay(timestamp);
   const hours = date.getHours();
 
-  // if minuted are less than 10, add a zero in front
+  // if minutes are less than 10, add a zero in front
   const minutes =
     date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
 
